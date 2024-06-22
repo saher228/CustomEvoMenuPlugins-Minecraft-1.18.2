@@ -1,0 +1,12 @@
+name: CustomEvoMenu
+main: com.inzeworld.customevomenu.CustomEvoMenu
+version: 1.0-SNAPSHOT
+api-version: 1.18
+commands:
+  evomenu:
+    description: Opens the custom menu or restarts the plugin or gives a custom map
+    usage: /evomenu [restart]
+permissions:
+  evomenu.restart:
+    description: Allows the player to restart the CustomEvoMenu plugin
+    default: op
